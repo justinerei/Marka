@@ -1,0 +1,17 @@
+E:\codings\LSPU CODES\Marka\Marka\Marka\bin\Debug\net8.0-windows\Marka.exe
+E:\codings\LSPU CODES\Marka\Marka\Marka\bin\Debug\net8.0-windows\Marka.deps.json
+E:\codings\LSPU CODES\Marka\Marka\Marka\bin\Debug\net8.0-windows\Marka.runtimeconfig.json
+E:\codings\LSPU CODES\Marka\Marka\Marka\bin\Debug\net8.0-windows\Marka.dll
+E:\codings\LSPU CODES\Marka\Marka\Marka\bin\Debug\net8.0-windows\Marka.pdb
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.Properties.Resources.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.csproj.GenerateResource.cache
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.GeneratedMSBuildEditorConfig.editorconfig
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.AssemblyInfoInputs.cache
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.AssemblyInfo.cs
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.csproj.CoreCompileInputs.cache
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.dll
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\refint\Marka.dll
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.pdb
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.genruntimeconfig.cache
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\ref\Marka.dll
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.Home.resources
