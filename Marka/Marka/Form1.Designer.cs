@@ -30,23 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             statusBar = new PictureBox();
-            panelProfile = new Panel();
-            profilePic = new PictureBox();
-            tasksPending = new Label();
-            date = new Label();
-            username = new Label();
-            searchBar = new Panel();
-            label1 = new Label();
-            searchIcon = new PictureBox();
-            homeIndicator = new PictureBox();
-            label2 = new Label();
-            label3 = new Label();
+            trackIt = new Label();
+            seeAll = new Label();
+            horizontalScrolling = new FlowLayoutPanel();
+            pictureBox3 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox1 = new PictureBox();
+            radioButton2 = new RadioButton();
             ((System.ComponentModel.ISupportInitialize)statusBar).BeginInit();
-            panelProfile.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)profilePic).BeginInit();
-            searchBar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)searchIcon).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)homeIndicator).BeginInit();
+            horizontalScrolling.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // statusBar
@@ -59,129 +58,104 @@
             statusBar.TabIndex = 1;
             statusBar.TabStop = false;
             // 
-            // panelProfile
+            // trackIt
             // 
-            panelProfile.BackColor = SystemColors.ButtonHighlight;
-            panelProfile.Controls.Add(profilePic);
-            panelProfile.Controls.Add(tasksPending);
-            panelProfile.Controls.Add(date);
-            panelProfile.Controls.Add(username);
-            panelProfile.Location = new Point(16, 68);
-            panelProfile.Name = "panelProfile";
-            panelProfile.Size = new Size(343, 129);
-            panelProfile.TabIndex = 2;
+            trackIt.AutoSize = true;
+            trackIt.Font = new Font("Poppins", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            trackIt.ForeColor = Color.FromArgb(2, 2, 2);
+            trackIt.Location = new Point(17, 264);
+            trackIt.Name = "trackIt";
+            trackIt.Size = new Size(92, 36);
+            trackIt.TabIndex = 0;
+            trackIt.Text = "Track it";
             // 
-            // profilePic
+            // seeAll
             // 
-            profilePic.Image = (Image)resources.GetObject("profilePic.Image");
-            profilePic.Location = new Point(239, 23);
-            profilePic.Name = "profilePic";
-            profilePic.Size = new Size(75, 75);
-            profilePic.SizeMode = PictureBoxSizeMode.CenterImage;
-            profilePic.TabIndex = 3;
-            profilePic.TabStop = false;
+            seeAll.AutoSize = true;
+            seeAll.Font = new Font("Poppins SemiBold", 11.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
+            seeAll.ForeColor = Color.FromArgb(107, 114, 128);
+            seeAll.Location = new Point(306, 269);
+            seeAll.Name = "seeAll";
+            seeAll.Size = new Size(61, 26);
+            seeAll.TabIndex = 6;
+            seeAll.Text = "See all";
             // 
-            // tasksPending
+            // horizontalScrolling
             // 
-            tasksPending.AutoSize = true;
-            tasksPending.Font = new Font("Poppins", 6.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tasksPending.ForeColor = Color.FromArgb(42, 45, 50);
-            tasksPending.Location = new Point(32, 85);
-            tasksPending.Name = "tasksPending";
-            tasksPending.Size = new Size(84, 16);
-            tasksPending.TabIndex = 2;
-            tasksPending.Text = "10 tasks pending ";
+            horizontalScrolling.AllowDrop = true;
+            horizontalScrolling.AutoScroll = true;
+            horizontalScrolling.Controls.Add(pictureBox3);
+            horizontalScrolling.Controls.Add(pictureBox5);
+            horizontalScrolling.Controls.Add(pictureBox4);
+            horizontalScrolling.Location = new Point(12, 303);
+            horizontalScrolling.Name = "horizontalScrolling";
+            horizontalScrolling.Size = new Size(363, 160);
+            horizontalScrolling.TabIndex = 9;
+            horizontalScrolling.WrapContents = false;
             // 
-            // date
+            // pictureBox3
             // 
-            date.AutoSize = true;
-            date.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            date.ForeColor = Color.FromArgb(2, 3, 4);
-            date.Location = new Point(32, 60);
-            date.Name = "date";
-            date.Size = new Size(91, 23);
-            date.TabIndex = 1;
-            date.Text = "Feb. 20, 2025";
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(3, 3);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(220, 145);
+            pictureBox3.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox3.TabIndex = 0;
+            pictureBox3.TabStop = false;
             // 
-            // username
+            // pictureBox5
             // 
-            username.AutoSize = true;
-            username.BackColor = SystemColors.ButtonHighlight;
-            username.Font = new Font("Poppins", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            username.ForeColor = Color.FromArgb(2, 2, 2);
-            username.Location = new Point(29, 26);
-            username.Name = "username";
-            username.Size = new Size(163, 42);
-            username.TabIndex = 0;
-            username.Text = "Hello, Juan!";
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(229, 3);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(220, 145);
+            pictureBox5.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox5.TabIndex = 2;
+            pictureBox5.TabStop = false;
             // 
-            // searchBar
+            // pictureBox4
             // 
-            searchBar.AutoScroll = true;
-            searchBar.BackColor = Color.FromArgb(31, 44, 55);
-            searchBar.Controls.Add(label1);
-            searchBar.Controls.Add(searchIcon);
-            searchBar.Location = new Point(93, 183);
-            searchBar.Name = "searchBar";
-            searchBar.Size = new Size(183, 30);
-            searchBar.TabIndex = 3;
-            searchBar.Paint += searchBar_Paint;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(455, 3);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(220, 145);
+            pictureBox4.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox4.TabIndex = 1;
+            pictureBox4.TabStop = false;
             // 
-            // label1
+            // pictureBox2
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.FromArgb(31, 44, 55);
-            label1.Font = new Font("Poppins SemiBold", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.FromArgb(107, 114, 128);
-            label1.Location = new Point(44, 7);
-            label1.Name = "label1";
-            label1.Size = new Size(124, 19);
-            label1.TabIndex = 5;
-            label1.Text = "Search for anything..";
-            label1.Click += label1_Click;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(16, 68);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(343, 156);
+            pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox2.TabIndex = 4;
+            pictureBox2.TabStop = false;
             // 
-            // searchIcon
+            // pictureBox1
             // 
-            searchIcon.Image = (Image)resources.GetObject("searchIcon.Image");
-            searchIcon.Location = new Point(27, 7);
-            searchIcon.Name = "searchIcon";
-            searchIcon.Size = new Size(15, 15);
-            searchIcon.SizeMode = PictureBoxSizeMode.CenterImage;
-            searchIcon.TabIndex = 4;
-            searchIcon.TabStop = false;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, 499);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(375, 314);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 10;
+            pictureBox1.TabStop = false;
             // 
-            // homeIndicator
+            // radioButton2
             // 
-            homeIndicator.Image = (Image)resources.GetObject("homeIndicator.Image");
-            homeIndicator.Location = new Point(-12, 778);
-            homeIndicator.Name = "homeIndicator";
-            homeIndicator.Size = new Size(400, 34);
-            homeIndicator.SizeMode = PictureBoxSizeMode.CenterImage;
-            homeIndicator.TabIndex = 4;
-            homeIndicator.TabStop = false;
-            homeIndicator.Click += pictureBox2_Click;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Poppins", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.FromArgb(2, 2, 2);
-            label2.Location = new Point(17, 264);
-            label2.Name = "label2";
-            label2.Size = new Size(92, 36);
-            label2.TabIndex = 0;
-            label2.Text = "Track it";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Poppins SemiBold", 11.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.FromArgb(107, 114, 128);
-            label3.Location = new Point(306, 269);
-            label3.Name = "label3";
-            label3.Size = new Size(61, 26);
-            label3.TabIndex = 6;
-            label3.Text = "See all";
+            radioButton2.AutoSize = true;
+            radioButton2.BackColor = Color.White;
+            radioButton2.Font = new Font("Poppins SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            radioButton2.ForeColor = Color.FromArgb(5, 7, 9);
+            radioButton2.Location = new Point(28, 601);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(286, 32);
+            radioButton2.TabIndex = 11;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "CODECHUM submission ITEC103";
+            radioButton2.UseVisualStyleBackColor = false;
             // 
             // Home
             // 
@@ -190,24 +164,25 @@
             BackColor = Color.FromArgb(243, 244, 246);
             ClientSize = new Size(375, 812);
             ControlBox = false;
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(homeIndicator);
-            Controls.Add(searchBar);
-            Controls.Add(panelProfile);
+            Controls.Add(radioButton2);
+            Controls.Add(pictureBox1);
+            Controls.Add(pictureBox2);
+            Controls.Add(horizontalScrolling);
+            Controls.Add(seeAll);
+            Controls.Add(trackIt);
             Controls.Add(statusBar);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Home";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "           ";
+            Load += Home_Load_1;
             ((System.ComponentModel.ISupportInitialize)statusBar).EndInit();
-            panelProfile.ResumeLayout(false);
-            panelProfile.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)profilePic).EndInit();
-            searchBar.ResumeLayout(false);
-            searchBar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)searchIcon).EndInit();
-            ((System.ComponentModel.ISupportInitialize)homeIndicator).EndInit();
+            horizontalScrolling.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -215,16 +190,14 @@
         #endregion
 
         private PictureBox statusBar;
-        private Panel panelProfile;
-        private Label username;
-        private Label date;
-        private Label tasksPending;
-        private PictureBox profilePic;
-        private Panel searchBar;
-        private PictureBox searchIcon;
-        private Label label1;
-        private PictureBox homeIndicator;
-        private Label label2;
-        private Label label3;
+        private Label trackIt;
+        private Label seeAll;
+        private FlowLayoutPanel horizontalScrolling;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox1;
+        private RadioButton radioButton2;
     }
 }
