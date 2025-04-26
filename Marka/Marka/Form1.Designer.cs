@@ -38,7 +38,10 @@
             pictureBox4 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
-            radioButton2 = new RadioButton();
+            checkBox1 = new CheckBox();
+            date1 = new Label();
+            checkBox2 = new CheckBox();
+            date2 = new Label();
             ((System.ComponentModel.ISupportInitialize)statusBar).BeginInit();
             horizontalScrolling.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -143,19 +146,59 @@
             pictureBox1.TabIndex = 10;
             pictureBox1.TabStop = false;
             // 
-            // radioButton2
+            // checkBox1
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.BackColor = Color.White;
-            radioButton2.Font = new Font("Poppins SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            radioButton2.ForeColor = Color.FromArgb(5, 7, 9);
-            radioButton2.Location = new Point(28, 601);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(286, 32);
-            radioButton2.TabIndex = 11;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "CODECHUM submission ITEC103";
-            radioButton2.UseVisualStyleBackColor = false;
+            checkBox1.AutoSize = true;
+            checkBox1.BackColor = Color.White;
+            checkBox1.Font = new Font("Poppins SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            checkBox1.ForeColor = Color.FromArgb(255, 167, 38);
+            checkBox1.Location = new Point(27, 599);
+            checkBox1.Margin = new Padding(4);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(287, 32);
+            checkBox1.TabIndex = 11;
+            checkBox1.Text = "CODECHUM submission ITEC103";
+            checkBox1.TextAlign = ContentAlignment.BottomCenter;
+            checkBox1.UseVisualStyleBackColor = false;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // date1
+            // 
+            date1.AutoSize = true;
+            date1.BackColor = Color.White;
+            date1.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            date1.Location = new Point(45, 623);
+            date1.Name = "date1";
+            date1.Size = new Size(107, 23);
+            date1.TabIndex = 12;
+            date1.Text = "02/24/25, 23:59";
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.BackColor = Color.White;
+            checkBox2.Font = new Font("Poppins SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            checkBox2.ForeColor = Color.FromArgb(255, 167, 38);
+            checkBox2.Location = new Point(27, 653);
+            checkBox2.Margin = new Padding(4);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(245, 32);
+            checkBox2.TabIndex = 13;
+            checkBox2.Text = "TRUTH assignment ITEP102";
+            checkBox2.TextAlign = ContentAlignment.BottomCenter;
+            checkBox2.UseVisualStyleBackColor = false;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            // 
+            // date2
+            // 
+            date2.AutoSize = true;
+            date2.BackColor = Color.White;
+            date2.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            date2.Location = new Point(45, 677);
+            date2.Name = "date2";
+            date2.Size = new Size(104, 23);
+            date2.TabIndex = 14;
+            date2.Text = "02/25/25, 14:00";
             // 
             // Home
             // 
@@ -164,7 +207,10 @@
             BackColor = Color.FromArgb(243, 244, 246);
             ClientSize = new Size(375, 812);
             ControlBox = false;
-            Controls.Add(radioButton2);
+            Controls.Add(date2);
+            Controls.Add(checkBox2);
+            Controls.Add(date1);
+            Controls.Add(checkBox1);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
             Controls.Add(horizontalScrolling);
@@ -198,6 +244,9 @@
         private PictureBox pictureBox5;
         private PictureBox pictureBox4;
         private PictureBox pictureBox1;
-        private RadioButton radioButton2;
+        private CheckBox checkBox1;
+        private Label date1;
+        private CheckBox checkBox2;
+        private Label date2;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Marka")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1697bd9fc950892d231b227788f37d2d4afaebc9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8889eade1e69451e38e000ecbbc73c53e40f9d7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Marka")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Marka")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
