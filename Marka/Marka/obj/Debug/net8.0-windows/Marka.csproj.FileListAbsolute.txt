@@ -16,3 +16,4 @@ E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\refint\Marka.dl
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.pdb
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.genruntimeconfig.cache
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\ref\Marka.dll
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.AddTaskForm.resources
