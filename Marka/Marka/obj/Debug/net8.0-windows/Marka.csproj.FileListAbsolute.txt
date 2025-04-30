@@ -17,3 +17,7 @@ E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.pdb
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.genruntimeconfig.cache
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\ref\Marka.dll
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.AddTaskForm.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.LandingPage.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.HelloMark.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.QuestionMark.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.WhatUser.resources
