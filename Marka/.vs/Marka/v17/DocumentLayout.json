@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\whatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|e:\\codings\\lspu codes\\marka\\marka\\marka\\questionmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|E:\\codings\\LSPU CODES\\Marka\\Marka\\marka\\questionmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\questionmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\questionmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|e:\\codings\\lspu codes\\marka\\marka\\marka\\whatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|E:\\codings\\LSPU CODES\\Marka\\Marka\\marka\\whatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\whatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -66,8 +66,7 @@
               "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\WhatUser.cs [Design]",
               "RelativeToolTip": "Marka\\WhatUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T13:21:49.355Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-30T13:21:49.355Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\QuestionMark.cs [Design]",
               "RelativeToolTip": "Marka\\QuestionMark.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T12:39:27.252Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-30T12:39:27.252Z"
             }
           ]
         }
