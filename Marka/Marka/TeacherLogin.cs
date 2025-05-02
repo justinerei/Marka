@@ -35,15 +35,6 @@ namespace Marka
             RoundPanel(panel2, 25);
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void TeacherLogin_Load(object sender, EventArgs e)
-        {
-            this.ActiveControl = null;
-        }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
@@ -65,7 +56,7 @@ namespace Marka
             if (enteredEmail == correctEmail && enteredPassword == correctPassword)
             {
                 // If correct, open the next form
-                LandingPage nextForm = new LandingPage(); // Replace NextForm with your next form class
+                TeacherHome nextForm = new TeacherHome(); // Replace NextForm with your next form class
                 nextForm.Show();
                 this.Hide(); // Optionally hide the current form
             }

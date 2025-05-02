@@ -25,3 +25,4 @@ E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentCl
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.TeacherClicked.resources
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.TeacherLogin.resources
 E:\codings\LSPU CODES\Marka\Marka\Marka\bin\Debug\net8.0-windows\Marka.dll.config
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.TeacherHome.resources

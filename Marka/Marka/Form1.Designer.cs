@@ -153,10 +153,10 @@
             // userPanel
             // 
             userPanel.Image = (Image)resources.GetObject("userPanel.Image");
-            userPanel.Location = new Point(16, 68);
+            userPanel.Location = new Point(8, 65);
             userPanel.Name = "userPanel";
-            userPanel.Size = new Size(343, 156);
-            userPanel.SizeMode = PictureBoxSizeMode.CenterImage;
+            userPanel.Size = new Size(359, 169);
+            userPanel.SizeMode = PictureBoxSizeMode.AutoSize;
             userPanel.TabIndex = 4;
             userPanel.TabStop = false;
             // 
