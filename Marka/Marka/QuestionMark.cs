@@ -28,7 +28,7 @@ namespace Marka
             WhatUser whatUser = new WhatUser();
             whatUser.ShowDialog();
 
-            this.Close();
+            this.Hide();
         }
     }
 }

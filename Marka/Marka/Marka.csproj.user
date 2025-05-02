@@ -16,6 +16,15 @@
     <Compile Update="QuestionMark.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="StudentClicked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="teacherClicked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TeacherLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="WhatUser.cs">
       <SubType>Form</SubType>
     </Compile>

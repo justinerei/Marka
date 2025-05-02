@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace Marka
 {
-    public partial class WhatUser : Form
+    public partial class StudentClicked : Form
     {
-        public WhatUser()
+        public StudentClicked()
         {
             InitializeComponent();
-        }
-
-        private void teacherCard_Click(object sender, EventArgs e)
-        {
-            TeacherClicked teacherClicked = new TeacherClicked();
-            teacherClicked.ShowDialog();
-
-            this.Hide();
         }
 
         private void backBtn_Click(object sender, EventArgs e)
@@ -31,10 +23,10 @@ namespace Marka
             questionMark.ShowDialog();
         }
 
-        private void studentCard_Click(object sender, EventArgs e)
+        private void teacherCard_Click(object sender, EventArgs e)
         {
-            StudentClicked studentClicked = new StudentClicked();
-            studentClicked.ShowDialog();
+            TeacherClicked teacherClicked = new TeacherClicked();
+            teacherClicked.ShowDialog();
 
             this.Hide();
         }

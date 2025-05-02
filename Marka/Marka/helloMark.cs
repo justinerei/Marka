@@ -36,7 +36,7 @@ namespace Marka
             QuestionMark questionMark = new QuestionMark();
             questionMark.ShowDialog();
 
-            this.Close();
+            this.Hide();
         }
     }
 }

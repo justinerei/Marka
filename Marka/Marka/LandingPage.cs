@@ -31,7 +31,7 @@ namespace Marka
             HelloMark helloMark = new HelloMark();
             helloMark.ShowDialog();
 
-            this.Close();
+            this.Hide();
         }
     }
 }

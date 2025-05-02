@@ -21,3 +21,7 @@ E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.LandingPa
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.HelloMark.resources
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.QuestionMark.resources
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.WhatUser.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentClicked.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.TeacherClicked.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.TeacherLogin.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\bin\Debug\net8.0-windows\Marka.dll.config

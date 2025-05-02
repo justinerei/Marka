@@ -10,25 +10,16 @@ using System.Windows.Forms;
 
 namespace Marka
 {
-    public partial class WhatUser : Form
+    public partial class TeacherClicked : Form
     {
-        public WhatUser()
+        public TeacherClicked()
         {
             InitializeComponent();
         }
 
-        private void teacherCard_Click(object sender, EventArgs e)
+        private void teacherCardClicked_Click(object sender, EventArgs e)
         {
-            TeacherClicked teacherClicked = new TeacherClicked();
-            teacherClicked.ShowDialog();
 
-            this.Hide();
-        }
-
-        private void backBtn_Click(object sender, EventArgs e)
-        {
-            QuestionMark questionMark = new QuestionMark();
-            questionMark.ShowDialog();
         }
 
         private void studentCard_Click(object sender, EventArgs e)
@@ -37,6 +28,12 @@ namespace Marka
             studentClicked.ShowDialog();
 
             this.Hide();
+        }
+
+        private void backBtn_Click(object sender, EventArgs e)
+        {
+            QuestionMark questionMark = new QuestionMark();
+            questionMark.ShowDialog();
         }
     }
 }
