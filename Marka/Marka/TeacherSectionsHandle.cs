@@ -10,25 +10,26 @@ using System.Windows.Forms;
 
 namespace Marka
 {
-    public partial class TeacherSubjectHandled : Form
+    public partial class TeacherSectionsHandle : Form
     {
-        public TeacherSubjectHandled()
+        public TeacherSectionsHandle()
         {
             InitializeComponent();
         }
 
         private void backBtn_Click(object sender, EventArgs e)
         {
-            TeacherHome teacherHome = new TeacherHome();
-            teacherHome.ShowDialog();
+            TeacherSubjectHandled teacherSubjectHandled = new TeacherSubjectHandled();
+            teacherSubjectHandled.Show();
 
-            this.Hide();
+            this.Close();
+
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
-            TeacherSectionsHandle teacherSectionsHandle = new TeacherSectionsHandle();
-            teacherSectionsHandle.Show();
+            Teacher1D teacher1D = new Teacher1D();
+            teacher1D.Show();
 
             this.Close();
         }
