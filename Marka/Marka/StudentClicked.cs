@@ -30,5 +30,13 @@ namespace Marka
 
             this.Hide();
         }
+
+        private void continueBtn_Click(object sender, EventArgs e)
+        {
+            StudentCreate studentCreate = new StudentCreate();
+            studentCreate.ShowDialog();
+
+            this.Show();
+        }
     }
 }

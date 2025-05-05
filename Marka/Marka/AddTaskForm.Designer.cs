@@ -98,9 +98,9 @@
             label3.Font = new Font("Poppins", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(61, 121);
             label3.Name = "label3";
-            label3.Size = new Size(62, 22);
+            label3.Size = new Size(91, 22);
             label3.TabIndex = 5;
-            label3.Text = "Task Title";
+            label3.Text = "Task Deadline";
             // 
             // button1
             // 

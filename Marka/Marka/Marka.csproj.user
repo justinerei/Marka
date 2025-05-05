@@ -28,6 +28,12 @@
     <Compile Update="StudentClicked.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="StudentCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudentLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Teacher1D.cs">
       <SubType>Form</SubType>
     </Compile>

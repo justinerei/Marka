@@ -51,6 +51,7 @@
             continueBtn.SizeMode = PictureBoxSizeMode.CenterImage;
             continueBtn.TabIndex = 7;
             continueBtn.TabStop = false;
+            continueBtn.Click += continueBtn_Click;
             // 
             // pictureBox3
             // 
