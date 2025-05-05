@@ -110,6 +110,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox5.TabIndex = 5;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // backBtn
             // 

@@ -35,3 +35,6 @@ E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.AddConfir
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.SchedToday.resources
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentCreate.resources
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentLogin.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentEmail.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentPassword.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentUsername.resources

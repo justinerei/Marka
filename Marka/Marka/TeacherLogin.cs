@@ -15,24 +15,10 @@ namespace Marka
 {
     public partial class TeacherLogin : Form
     {
-        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
-        private static extern IntPtr CreateRoundRectRgn(
-        int nLeftRect, int nTopRect,
-        int nRightRect, int nBottomRect,
-        int nWidthEllipse, int nHeightEllipse);
-
-        private void RoundPanel(Panel panel, int radius)
-        {
-            panel.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel.Width, panel.Height, radius, radius));
-        }
-
-
 
         public TeacherLogin()
         {
             InitializeComponent();
-            RoundPanel(panel1, 25);
-            RoundPanel(panel2, 25);
         }
 
 

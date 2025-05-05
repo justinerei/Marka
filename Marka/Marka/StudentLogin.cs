@@ -12,9 +12,12 @@ namespace Marka
 {
     public partial class StudentLogin : Form
     {
+
+
         public StudentLogin()
         {
             InitializeComponent();
+   
         }
 
         private void StudentLogin_Load(object sender, EventArgs e)
@@ -32,7 +35,9 @@ namespace Marka
             string enteredPassword = tbPassword.Text;
 
             // Check if the email and password are correct
-            if (enteredEmail == correctEmail && enteredPassword == correctPassword)
+            if (enteredEmail == correctEmail && enteredPassword == correctPassword) 
+                //enteredEmail == registeredUser.Email && enteredPassword == registeredUser.Password ||
+                //enteredEmail == registeredUser.Username && enteredPassword == registeredUser.Password)
             {
                 // If correct, open the next form
                 Home nextForm = new Home(); // Replace NextForm with your next form class

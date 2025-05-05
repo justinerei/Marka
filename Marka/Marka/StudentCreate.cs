@@ -12,6 +12,7 @@ namespace Marka
 {
     public partial class StudentCreate : Form
     {
+        
         public StudentCreate()
         {
             InitializeComponent();
@@ -23,6 +24,11 @@ namespace Marka
             what.Show();
 
             this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
