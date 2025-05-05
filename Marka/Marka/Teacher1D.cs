@@ -50,5 +50,12 @@ namespace Marka
 
             this.Close();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            TeacherAdd teacherAdd = new TeacherAdd();
+            teacherAdd.ShowDialog();
+            this.Hide();
+        }
     }
 }
