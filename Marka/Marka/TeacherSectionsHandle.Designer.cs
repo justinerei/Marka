@@ -69,7 +69,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Poppins", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(144, 202, 249);
-            label1.Location = new Point(66, 60);
+            label1.Location = new Point(59, 60);
             label1.Name = "label1";
             label1.Size = new Size(188, 37);
             label1.TabIndex = 4;
@@ -92,7 +92,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Poppins", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(144, 202, 249);
-            label2.Location = new Point(66, 86);
+            label2.Location = new Point(58, 86);
             label2.Name = "label2";
             label2.Size = new Size(251, 37);
             label2.TabIndex = 11;

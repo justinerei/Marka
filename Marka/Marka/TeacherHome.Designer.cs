@@ -32,6 +32,20 @@
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             scrollbar = new Panel();
+            verticalScrolling = new FlowLayoutPanel();
+            panel2 = new Panel();
+            date1 = new Label();
+            label1 = new Label();
+            checkBox1 = new CheckBox();
+            panel1 = new Panel();
+            date2 = new Label();
+            label2 = new Label();
+            checkBox2 = new CheckBox();
+            panel3 = new Panel();
+            date3 = new Label();
+            label3 = new Label();
+            checkBox3 = new CheckBox();
+            plusIcon = new PictureBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             ustiPanel = new Panel();
             btnPanel1 = new Panel();
@@ -57,6 +71,11 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             scrollbar.SuspendLayout();
+            verticalScrolling.SuspendLayout();
+            panel2.SuspendLayout();
+            panel1.SuspendLayout();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)plusIcon).BeginInit();
             flowLayoutPanel1.SuspendLayout();
             ustiPanel.SuspendLayout();
             btnPanel1.SuspendLayout();
@@ -101,6 +120,8 @@
             // scrollbar
             // 
             scrollbar.AutoScroll = true;
+            scrollbar.Controls.Add(verticalScrolling);
+            scrollbar.Controls.Add(plusIcon);
             scrollbar.Controls.Add(flowLayoutPanel1);
             scrollbar.Controls.Add(pictureBox6);
             scrollbar.Controls.Add(pictureBox4);
@@ -110,6 +131,178 @@
             scrollbar.Name = "scrollbar";
             scrollbar.Size = new Size(375, 540);
             scrollbar.TabIndex = 8;
+            // 
+            // verticalScrolling
+            // 
+            verticalScrolling.AutoScroll = true;
+            verticalScrolling.BackColor = Color.FromArgb(52, 75, 253);
+            verticalScrolling.Controls.Add(panel2);
+            verticalScrolling.Controls.Add(panel1);
+            verticalScrolling.Controls.Add(panel3);
+            verticalScrolling.FlowDirection = FlowDirection.TopDown;
+            verticalScrolling.Location = new Point(192, 69);
+            verticalScrolling.Name = "verticalScrolling";
+            verticalScrolling.Size = new Size(161, 202);
+            verticalScrolling.TabIndex = 22;
+            verticalScrolling.WrapContents = false;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(date1);
+            panel2.Controls.Add(label1);
+            panel2.Controls.Add(checkBox1);
+            panel2.Location = new Point(3, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(151, 53);
+            panel2.TabIndex = 13;
+            // 
+            // date1
+            // 
+            date1.AutoSize = true;
+            date1.BackColor = Color.FromArgb(52, 75, 253);
+            date1.Font = new Font("Poppins", 6F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            date1.ForeColor = Color.FromArgb(176, 176, 176);
+            date1.Location = new Point(23, 39);
+            date1.Name = "date1";
+            date1.Size = new Size(71, 14);
+            date1.TabIndex = 12;
+            date1.Text = "02/24/25, 23:59";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(52, 75, 253);
+            label1.Font = new Font("Poppins SemiBold", 9F, FontStyle.Bold);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(21, 19);
+            label1.Name = "label1";
+            label1.Size = new Size(129, 22);
+            label1.TabIndex = 13;
+            label1.Text = "submission ITEC103";
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.BackColor = Color.FromArgb(52, 75, 253);
+            checkBox1.Font = new Font("Poppins SemiBold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            checkBox1.ForeColor = Color.White;
+            checkBox1.Location = new Point(4, 4);
+            checkBox1.Margin = new Padding(4);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(99, 26);
+            checkBox1.TabIndex = 11;
+            checkBox1.Text = "CODECHUM";
+            checkBox1.TextAlign = ContentAlignment.BottomCenter;
+            checkBox1.UseVisualStyleBackColor = false;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(date2);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(checkBox2);
+            panel1.Location = new Point(3, 62);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(151, 53);
+            panel1.TabIndex = 0;
+            // 
+            // date2
+            // 
+            date2.AutoSize = true;
+            date2.BackColor = Color.FromArgb(52, 75, 253);
+            date2.Font = new Font("Poppins", 6F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            date2.ForeColor = Color.FromArgb(176, 176, 176);
+            date2.Location = new Point(23, 39);
+            date2.Name = "date2";
+            date2.Size = new Size(69, 14);
+            date2.TabIndex = 12;
+            date2.Text = "02/25/25, 14:00";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.FromArgb(52, 75, 253);
+            label2.Font = new Font("Poppins SemiBold", 9F, FontStyle.Bold);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(21, 19);
+            label2.Name = "label2";
+            label2.Size = new Size(52, 22);
+            label2.TabIndex = 14;
+            label2.Text = "ITEP102";
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.BackColor = Color.FromArgb(52, 75, 253);
+            checkBox2.Font = new Font("Poppins SemiBold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            checkBox2.ForeColor = Color.White;
+            checkBox2.Location = new Point(4, 4);
+            checkBox2.Margin = new Padding(4);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(148, 26);
+            checkBox2.TabIndex = 11;
+            checkBox2.Text = "TRUTH assignment ";
+            checkBox2.TextAlign = ContentAlignment.BottomCenter;
+            checkBox2.UseVisualStyleBackColor = false;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(date3);
+            panel3.Controls.Add(label3);
+            panel3.Controls.Add(checkBox3);
+            panel3.Location = new Point(3, 121);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(152, 53);
+            panel3.TabIndex = 14;
+            // 
+            // date3
+            // 
+            date3.AutoSize = true;
+            date3.Font = new Font("Poppins", 6F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            date3.ForeColor = Color.FromArgb(176, 176, 176);
+            date3.Location = new Point(23, 39);
+            date3.Name = "date3";
+            date3.Size = new Size(69, 14);
+            date3.TabIndex = 1;
+            date3.Text = "02/25/25, 15:00";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.FromArgb(52, 75, 253);
+            label3.Font = new Font("Poppins SemiBold", 9F, FontStyle.Bold);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(22, 22);
+            label3.Name = "label3";
+            label3.Size = new Size(113, 22);
+            label3.TabIndex = 14;
+            label3.Text = "assigment FILDIS";
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Font = new Font("Poppins SemiBold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            checkBox3.ForeColor = Color.White;
+            checkBox3.Location = new Point(6, 6);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(88, 26);
+            checkBox3.TabIndex = 0;
+            checkBox3.Text = "ABSTRAK ";
+            checkBox3.UseVisualStyleBackColor = true;
+            checkBox3.CheckedChanged += checkBox3_CheckedChanged;
+            // 
+            // plusIcon
+            // 
+            plusIcon.BackColor = Color.FromArgb(52, 75, 253);
+            plusIcon.Image = (Image)resources.GetObject("plusIcon.Image");
+            plusIcon.Location = new Point(203, 294);
+            plusIcon.Name = "plusIcon";
+            plusIcon.Size = new Size(38, 38);
+            plusIcon.SizeMode = PictureBoxSizeMode.CenterImage;
+            plusIcon.TabIndex = 21;
+            plusIcon.TabStop = false;
+            plusIcon.Click += plusIcon_Click;
             // 
             // flowLayoutPanel1
             // 
@@ -307,6 +500,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox4.TabIndex = 1;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox3
             // 
@@ -350,11 +544,19 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "TeacherHome";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "TeacherHome";
+            Text = " ";
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             scrollbar.ResumeLayout(false);
             scrollbar.PerformLayout();
+            verticalScrolling.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)plusIcon).EndInit();
             flowLayoutPanel1.ResumeLayout(false);
             ustiPanel.ResumeLayout(false);
             ustiPanel.PerformLayout();
@@ -405,5 +607,19 @@
         private Panel btnPanel4;
         private Button button4;
         private PictureBox pictureBox9;
+        private PictureBox plusIcon;
+        private FlowLayoutPanel verticalScrolling;
+        private Panel panel2;
+        private Label date1;
+        private CheckBox checkBox1;
+        private Panel panel1;
+        private Label date2;
+        private CheckBox checkBox2;
+        private Panel panel3;
+        private Label date3;
+        private CheckBox checkBox3;
+        private Label label1;
+        private Label label2;
+        private Label label3;
     }
 }

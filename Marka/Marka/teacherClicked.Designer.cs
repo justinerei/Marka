@@ -62,7 +62,6 @@
             teacherCardClicked.SizeMode = PictureBoxSizeMode.CenterImage;
             teacherCardClicked.TabIndex = 4;
             teacherCardClicked.TabStop = false;
-            teacherCardClicked.Click += teacherCardClicked_Click;
             // 
             // studentCard
             // 
@@ -86,6 +85,7 @@
             continueBtn.SizeMode = PictureBoxSizeMode.CenterImage;
             continueBtn.TabIndex = 6;
             continueBtn.TabStop = false;
+            continueBtn.Click += continueBtn_Click;
             // 
             // backBtn
             // 

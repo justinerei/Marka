@@ -17,11 +17,6 @@ namespace Marka
             InitializeComponent();
         }
 
-        private void teacherCardClicked_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void studentCard_Click(object sender, EventArgs e)
         {
             StudentClicked studentClicked = new StudentClicked();
@@ -34,6 +29,13 @@ namespace Marka
         {
             QuestionMark questionMark = new QuestionMark();
             questionMark.ShowDialog();
+        }
+
+        private void continueBtn_Click(object sender, EventArgs e)
+        {
+            TeacherLogin teacherLogin = new TeacherLogin();
+            teacherLogin.Show();
+            this.Close();
         }
     }
 }

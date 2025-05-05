@@ -129,7 +129,7 @@
   <data name="teacherCardClicked.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAWEAAACCCAYAAACXWHlPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAJABJREFUeF7tXWuMXdV1PknwPOwZP8CDbTDESYwBJxSCA2ZMWqHmQUSrqmpK/jRS
+        DwAACw8BkvkDpQAAJABJREFUeF7tXWuMXdV1PknwPOwZP8CDbTDESYwBJxSCA2ZMWqHmQUSrqmpK/jRS
         0wRaJbQ/QmxIEzA2pX/SX4W0VSNVKqFVG7U/MBFIldo0RFVK1Uo1qdK0tBEmTSANTYaHiYVCuNW3Z6/t
         b39nnXPvtT3EM16ftH3O2Y+11t733m+W136cpjlBDAaD1yFpHl8138NgMGiV5+ciyym325Y+KivPlme6
         tI6C5Jn8dO/YkezsqK/1WvkZntxSRtlVPdZNSXVU9lNbu7b0kq1VnwRlDLke2cT1Wv0DWFeG1lE7Sr7q
@@ -289,7 +289,7 @@
   <data name="studentCard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAWEAAACCCAYAAACXWHlPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAInFJREFUeF7tXU2MZkd1fYCne3qme35st8djmzDAYGASAmEIziILFCBIjgSLxGyy
+        DAAACwwBP0AiyAAAInFJREFUeF7tXU2MZkd1fYCne3qme35st8djmzDAYGASAmEIziILFCBIjgSLxGyy
         IxApWbAwOEKWIzk/C6SsYpOwQjJ2RCQUIWxLkbIKWCC8sCVPogQFCdlObCMsoTEehhn/jDs6NXVrTp13
         39f9tbvNdM85Us17r+rWvbfq+/p8Nbd+3jBsEmtra29C0jy+an6GtbW1UXl9brqS8rgd2aOy9hx5YUtl
         FKQv9Jf7xI/i54S8yo3yKzK9rYyyOzm2TUltdP5T3biO7JKvXZsErQ9ZjnxiuVH7ALZVoTLqR8tX2/z5
@@ -564,7 +564,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAXcAAAMsCAYAAACvFuLjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAA/7JJREFUeF7svQl8luWV/v8mJOz7DgKygyAgS/YE4y6K1g23VkVUVBZF61KFwJM3
+        DwAACw8BkvkDpQAA/7JJREFUeF7svQl8luWV/v8mJOz7DgKygyAgS/YE4y6K1g23VkVUVBZF61KFwJM3
         AdyqrZ1u03VmfrM5nc7825lff53OjLO00+nUtra1q221464VSN7kzQLJ+X+uc9/nfs5zv08QXEHu8/kc
         3zchCRKSby6u+9zXyWRChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFC
         hQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSo

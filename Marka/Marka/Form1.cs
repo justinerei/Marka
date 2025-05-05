@@ -5,6 +5,8 @@ namespace Marka
 {
     public partial class Home : Form
     {
+        
+
         public Home()
         {
             InitializeComponent();
@@ -118,7 +120,7 @@ namespace Marka
 
         private void plusIcon_Click(object sender, EventArgs e)
         {
-            AddTaskForm addTaskForm = new AddTaskForm();
+            AddTaskForm addTaskForm = new AddTaskForm(this);
 
             if (addTaskForm.ShowDialog() == DialogResult.OK)
             {

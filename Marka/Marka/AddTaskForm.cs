@@ -14,10 +14,12 @@ namespace Marka
     {
         public string TaskTitle { get; private set; }
         public DateTime TaskDeadline { get; private set; }
+        private Form previousForm;
 
-        public AddTaskForm()
+        public AddTaskForm(Form caller)
         {
             InitializeComponent();
+            previousForm = caller;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -56,8 +58,8 @@ namespace Marka
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Home home = new Home();
-            home.ShowDialog();
+            this.Hide(); // or this.Close();
+            previousForm.Show();
         }
     }
 }

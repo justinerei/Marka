@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "E:\\codings\\LSPU CODES\\Marka\\Marka\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|e:\\codings\\lspu codes\\marka\\marka\\marka\\addconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\addconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|e:\\codings\\lspu codes\\marka\\marka\\marka\\addconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\addconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|e:\\codings\\lspu codes\\marka\\marka\\marka\\teacheradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\teacheradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|e:\\codings\\lspu codes\\marka\\marka\\marka\\teacheradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\teacheradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|E:\\codings\\LSPU CODES\\Marka\\Marka\\marka\\teacherlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\teacherlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|e:\\codings\\lspu codes\\marka\\marka\\marka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|E:\\codings\\LSPU CODES\\Marka\\Marka\\marka\\teacherhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\teacherhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|e:\\codings\\lspu codes\\marka\\marka\\marka\\teacher1d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\teacher1d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|e:\\codings\\lspu codes\\marka\\marka\\marka\\teachersectionshandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\teachersectionshandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|e:\\codings\\lspu codes\\marka\\marka\\marka\\teachersubjecthandled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3890CB66-B89F-4C51-8D6F-FBCAA9FAC1E5}|Marka\\Marka.csproj|solutionrelative:marka\\teachersubjecthandled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,97 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddConfirm.cs",
-              "DocumentMoniker": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\AddConfirm.cs",
-              "RelativeDocumentMoniker": "Marka\\AddConfirm.cs",
-              "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\AddConfirm.cs",
-              "RelativeToolTip": "Marka\\AddConfirm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwB0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T07:43:06.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddConfirm.cs [Design]",
-              "DocumentMoniker": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\AddConfirm.cs",
-              "RelativeDocumentMoniker": "Marka\\AddConfirm.cs",
-              "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\AddConfirm.cs [Design]",
-              "RelativeToolTip": "Marka\\AddConfirm.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\Program.cs",
+              "RelativeDocumentMoniker": "Marka\\Program.cs",
+              "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\Program.cs",
+              "RelativeToolTip": "Marka\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T07:39:18.901Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TeacherAdd.cs",
-              "DocumentMoniker": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherAdd.cs",
-              "RelativeDocumentMoniker": "Marka\\TeacherAdd.cs",
-              "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherAdd.cs",
-              "RelativeToolTip": "Marka\\TeacherAdd.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB8AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T07:37:19.696Z",
+              "WhenOpened": "2025-05-05T04:48:42.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TeacherAdd.cs [Design]",
-              "DocumentMoniker": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherAdd.cs",
-              "RelativeDocumentMoniker": "Marka\\TeacherAdd.cs",
-              "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherAdd.cs [Design]",
-              "RelativeToolTip": "Marka\\TeacherAdd.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T05:58:55.567Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Teacher1D.cs [Design]",
-              "DocumentMoniker": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\Teacher1D.cs",
-              "RelativeDocumentMoniker": "Marka\\Teacher1D.cs",
-              "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\Teacher1D.cs [Design]",
-              "RelativeToolTip": "Marka\\Teacher1D.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T04:59:35.317Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TeacherSectionsHandle.cs [Design]",
-              "DocumentMoniker": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherSectionsHandle.cs",
-              "RelativeDocumentMoniker": "Marka\\TeacherSectionsHandle.cs",
-              "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherSectionsHandle.cs [Design]",
-              "RelativeToolTip": "Marka\\TeacherSectionsHandle.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T05:52:33.233Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TeacherSubjectHandled.cs [Design]",
-              "DocumentMoniker": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherSubjectHandled.cs",
-              "RelativeDocumentMoniker": "Marka\\TeacherSubjectHandled.cs",
-              "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherSubjectHandled.cs [Design]",
-              "RelativeToolTip": "Marka\\TeacherSubjectHandled.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T05:58:18.819Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "TeacherHome.cs [Design]",
               "DocumentMoniker": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherHome.cs",
               "RelativeDocumentMoniker": "Marka\\TeacherHome.cs",
@@ -144,18 +43,6 @@
               "RelativeToolTip": "Marka\\TeacherHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T12:51:51.136Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TeacherLogin.cs [Design]",
-              "DocumentMoniker": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherLogin.cs",
-              "RelativeDocumentMoniker": "Marka\\TeacherLogin.cs",
-              "ToolTip": "E:\\codings\\LSPU CODES\\Marka\\Marka\\Marka\\TeacherLogin.cs [Design]",
-              "RelativeToolTip": "Marka\\TeacherLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T05:50:31.926Z",
               "EditorCaption": " [Design]"
             }
           ]
