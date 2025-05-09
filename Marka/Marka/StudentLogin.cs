@@ -13,11 +13,11 @@ namespace Marka
     public partial class StudentLogin : Form
     {
 
-
-        public StudentLogin()
+        private User _registeredUser;
+        public StudentLogin(User user)
         {
             InitializeComponent();
-   
+            _registeredUser = user;
         }
 
         private void StudentLogin_Load(object sender, EventArgs e)
@@ -26,31 +26,19 @@ namespace Marka
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            string correctEmail = "admin";
-            string correctPassword = "admin123";
-
-            // Get entered values
-            string enteredEmail = tbEmail.Text;
-            string enteredPassword = tbPassword.Text;
-
+        { 
             // Check if the email and password are correct
-            if (enteredEmail == correctEmail && enteredPassword == correctPassword) 
-                //enteredEmail == registeredUser.Email && enteredPassword == registeredUser.Password ||
-                //enteredEmail == registeredUser.Username && enteredPassword == registeredUser.Password)
+            if (tbEmail.Text == _registeredUser.Email &&
+                tbPassword.Text == _registeredUser.Password)
             {
-                // If correct, open the next form
-                Home nextForm = new Home(); // Replace NextForm with your next form class
-                nextForm.Show();
-                this.Hide(); // Optionally hide the current form
+                Home home = new Home();
+                home.Show();
+
+                this.Hide();
             }
             else
             {
-                // If incorrect, show an error message
-                MessageBox.Show("Invalid email or password. Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                tbEmail.Text = "";
-                tbPassword.Text = "";
+                MessageBox.Show("Invalid Email or Password.", "Try again", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

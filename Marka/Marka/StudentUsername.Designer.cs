@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentUsername));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
-            textBox1 = new TextBox();
+            txtUsername = new TextBox();
             backBtn = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -61,14 +61,14 @@
             pictureBox2.TabIndex = 16;
             pictureBox2.TabStop = false;
             // 
-            // textBox1
+            // txtUsername
             // 
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(70, 210);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(232, 20);
-            textBox1.TabIndex = 17;
+            txtUsername.BorderStyle = BorderStyle.None;
+            txtUsername.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtUsername.Location = new Point(70, 210);
+            txtUsername.Name = "txtUsername";
+            txtUsername.Size = new Size(232, 20);
+            txtUsername.TabIndex = 17;
             // 
             // backBtn
             // 
@@ -88,7 +88,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(375, 812);
             Controls.Add(backBtn);
-            Controls.Add(textBox1);
+            Controls.Add(txtUsername);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
             FormBorderStyle = FormBorderStyle.None;
@@ -106,7 +106,7 @@
 
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
-        private TextBox textBox1;
+        private TextBox txtUsername;
         private PictureBox backBtn;
     }
 }

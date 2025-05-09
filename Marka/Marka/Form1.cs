@@ -5,7 +5,7 @@ namespace Marka
 {
     public partial class Home : Form
     {
-        
+
 
         public Home()
         {
@@ -174,6 +174,14 @@ namespace Marka
                 // Add panel into FlowLayoutPanel
                 verticalScrolling.Controls.Add(taskPanel);
             }
+        }
+
+        private void pendingPanel_Click(object sender, EventArgs e)
+        {
+            StudentPendingFull studentPendingFull = new StudentPendingFull();
+            studentPendingFull.Show();
+
+            this.Hide();
         }
     }
 }

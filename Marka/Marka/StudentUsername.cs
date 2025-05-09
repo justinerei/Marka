@@ -12,15 +12,16 @@ namespace Marka
 {
     public partial class StudentUsername : Form
     {
-
-        public StudentUsername()
+        private User _user;
+        public StudentUsername(User user)
         {
             InitializeComponent();
+            _user = user;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            string username = textBox1.Text;
+            string username = txtUsername.Text;
 
             bool hasMinimumLength = username.Length >= 4;
 
@@ -32,7 +33,9 @@ namespace Marka
             }
             else
             {
-                StudentLogin loginForm = new StudentLogin();
+                _user.Username = txtUsername.Text;
+
+                StudentLogin loginForm = new StudentLogin(_user);
                 loginForm.Show();
                 this.Hide();
 
@@ -41,7 +44,7 @@ namespace Marka
 
         private void backBtn_Click(object sender, EventArgs e)
         {
-            StudentPassword password = new StudentPassword();
+            StudentPassword password = new StudentPassword(_user);
             password.Show();
 
             

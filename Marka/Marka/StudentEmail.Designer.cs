@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentEmail));
             pictureBox2 = new PictureBox();
-            textBox1 = new TextBox();
+            txtEmail = new TextBox();
             pictureBox1 = new PictureBox();
             backBtn = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -49,14 +49,14 @@
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
             // 
-            // textBox1
+            // txtEmail
             // 
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(71, 165);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(256, 20);
-            textBox1.TabIndex = 9;
+            txtEmail.BorderStyle = BorderStyle.None;
+            txtEmail.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtEmail.Location = new Point(71, 165);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(256, 20);
+            txtEmail.TabIndex = 9;
             // 
             // pictureBox1
             // 
@@ -89,7 +89,7 @@
             ClientSize = new Size(375, 812);
             Controls.Add(backBtn);
             Controls.Add(pictureBox1);
-            Controls.Add(textBox1);
+            Controls.Add(txtEmail);
             Controls.Add(pictureBox2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "StudentEmail";
@@ -105,7 +105,7 @@
         #endregion
 
         private PictureBox pictureBox2;
-        private TextBox textBox1;
+        private TextBox txtEmail;
         private PictureBox pictureBox1;
         private PictureBox backBtn;
     }

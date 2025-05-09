@@ -40,6 +40,12 @@
     <Compile Update="StudentPassword.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="StudentPendingFull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudentSubjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="StudentUsername.cs">
       <SubType>Form</SubType>
     </Compile>

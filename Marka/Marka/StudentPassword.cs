@@ -16,10 +16,12 @@ namespace Marka
 
     public partial class StudentPassword : Form
     {
-  
-        public StudentPassword()
+
+        private User _user;
+        public StudentPassword(User user)
         {
             InitializeComponent();
+            _user = user;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -37,12 +39,11 @@ namespace Marka
             }
             else
             {
+                _user.Password = tbPassword.Text;
 
-
-                StudentUsername username = new StudentUsername();
-                username.Show();
-
-                this.Hide();
+                StudentUsername usernameForm = new StudentUsername(_user);
+                usernameForm.Show();
+                this.Hide(); ;
             }
         }
 

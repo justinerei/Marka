@@ -19,20 +19,22 @@ namespace Marka
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            string email = textBox1.Text.Trim();
+            string txtEmail = this.txtEmail.Text.Trim();
 
-            if (!email.EndsWith("@gmail.com") && !email.EndsWith("@yahoo.com"))
+            if (!txtEmail.EndsWith("@gmail.com") && !txtEmail.EndsWith("@yahoo.com"))
             {
                 MessageBox.Show("Email must end with @gmail.com or @yahoo.com", "Invalid Email", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                textBox1.Text = "";
+                this.txtEmail.Text = "";
                 return;
             }
             else
-            { 
-                StudentPassword password = new StudentPassword();
-                password.Show();
+            {
+                User user = new User();
+                user.Email = this.txtEmail.Text;
 
-                this.Hide();
+                StudentPassword passwordForm = new StudentPassword(user);
+                passwordForm.Show();
+                this.Hide(); // optional: hides the current form
             }
         }
 

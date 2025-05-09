@@ -170,6 +170,7 @@
             pendingPanel.SizeMode = PictureBoxSizeMode.CenterImage;
             pendingPanel.TabIndex = 10;
             pendingPanel.TabStop = false;
+            pendingPanel.Click += pendingPanel_Click;
             // 
             // checkBox2
             // 
@@ -349,7 +350,7 @@
             // 
             pictureBox1.BackColor = Color.White;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(250, 755);
+            pictureBox1.Location = new Point(244, 755);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(25, 25);
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -360,7 +361,7 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(308, 755);
+            pictureBox2.Location = new Point(306, 755);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(24, 24);
             pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
