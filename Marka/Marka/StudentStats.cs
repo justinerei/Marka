@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Marka
 {
-    public partial class StudentSubjects : Form
+    public partial class StudentStats : Form
     {
-        public StudentSubjects()
+        public StudentStats()
         {
             InitializeComponent();
         }
@@ -27,6 +27,13 @@ namespace Marka
         private void subjectsIcon_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            StudentSubjects subjects = new StudentSubjects();
+            subjects.Show();
+            this.Hide();
         }
     }
 }

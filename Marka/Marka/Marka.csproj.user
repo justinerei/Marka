@@ -43,6 +43,9 @@
     <Compile Update="StudentPendingFull.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="StudentStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="StudentSubjects.cs">
       <SubType>Form</SubType>
     </Compile>

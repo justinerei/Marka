@@ -249,6 +249,7 @@
             homeIcon.SizeMode = PictureBoxSizeMode.CenterImage;
             homeIcon.TabIndex = 23;
             homeIcon.TabStop = false;
+            homeIcon.Click += homeIcon_Click;
             // 
             // pictureBox3
             // 
@@ -294,6 +295,7 @@
             subjectsIcon.SizeMode = PictureBoxSizeMode.CenterImage;
             subjectsIcon.TabIndex = 25;
             subjectsIcon.TabStop = false;
+            subjectsIcon.Click += subjectsIcon_Click;
             // 
             // homeIndicator
             // 

@@ -12,27 +12,28 @@ namespace Marka
 {
     public partial class StudentEmail : Form
     {
-        public StudentEmail()
+        private User _user;
+        public StudentEmail(User user)
         {
             InitializeComponent();
+            _user = user;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            string txtEmail = this.txtEmail.Text.Trim();
+            string txtEmail = this.tbEmail.Text.Trim();
 
             if (!txtEmail.EndsWith("@gmail.com") && !txtEmail.EndsWith("@yahoo.com"))
             {
                 MessageBox.Show("Email must end with @gmail.com or @yahoo.com", "Invalid Email", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                this.txtEmail.Text = "";
+                this.tbEmail.Text = "";
                 return;
             }
             else
             {
-                User user = new User();
-                user.Email = this.txtEmail.Text;
+                _user.Email = tbEmail.Text;
 
-                StudentPassword passwordForm = new StudentPassword(user);
+                StudentPassword passwordForm = new StudentPassword(_user);
                 passwordForm.Show();
                 this.Hide(); // optional: hides the current form
             }

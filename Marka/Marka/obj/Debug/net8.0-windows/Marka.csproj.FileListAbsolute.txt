@@ -39,3 +39,5 @@ E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentEm
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentPassword.resources
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentUsername.resources
 E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentPendingFull.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentSubjects.resources
+E:\codings\LSPU CODES\Marka\Marka\Marka\obj\Debug\net8.0-windows\Marka.StudentStats.resources

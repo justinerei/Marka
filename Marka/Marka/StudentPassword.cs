@@ -54,7 +54,7 @@ namespace Marka
 
         private void backBtn_Click(object sender, EventArgs e)
         {
-            StudentEmail studentEmail = new StudentEmail();
+            StudentEmail studentEmail = new StudentEmail(_user);
             studentEmail.Show();
 
             this.Hide();

@@ -55,6 +55,7 @@
             emailBtn.SizeMode = PictureBoxSizeMode.AutoSize;
             emailBtn.TabIndex = 0;
             emailBtn.TabStop = false;
+            emailBtn.Click += emailBtn_Click;
             // 
             // pictureBox2
             // 

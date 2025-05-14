@@ -12,7 +12,6 @@ namespace Marka
 {
     public partial class StudentCreate : Form
     {
-        
         public StudentCreate()
         {
             InitializeComponent();
@@ -28,7 +27,15 @@ namespace Marka
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            
+ 
+        }
+
+        private void emailBtn_Click(object sender, EventArgs e)
+        {
+            User user = new User(); // Start the user object HERE
+            StudentEmail emailForm = new StudentEmail(user);
+            emailForm.Show();
+            this.Hide();
         }
     }
 }
