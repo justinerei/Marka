@@ -34,9 +34,9 @@ namespace Marka
         private void continueBtn_Click(object sender, EventArgs e)
         {
             StudentCreate studentCreate = new StudentCreate();
-            studentCreate.ShowDialog();
+            studentCreate.Show();
 
-            this.Show();
+            this.Hide();
         }
     }
 }

@@ -340,7 +340,7 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Poppins SemiBold", 6.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(0, 0);
+            button1.Location = new Point(0, 1);
             button1.Name = "button1";
             button1.Size = new Size(135, 22);
             button1.TabIndex = 1;

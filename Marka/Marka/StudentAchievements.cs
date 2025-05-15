@@ -10,27 +10,28 @@ using System.Windows.Forms;
 
 namespace Marka
 {
-    public partial class StudentCreate : Form
+    public partial class StudentAchievements : Form
     {
-        public StudentCreate()
+        public StudentAchievements()
         {
             InitializeComponent();
         }
 
         private void backBtn_Click(object sender, EventArgs e)
         {
-            WhatUser what = new WhatUser();
-            what.Show();
-
+            StudentProfile profile = new StudentProfile();
+            profile.Show();
             this.Hide();
         }
 
-        private void emailBtn_Click_1(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
-            User user = new User(); // Start the user object HERE
-            StudentEmail emailForm = new StudentEmail(user);
-            emailForm.Show();
-            this.Hide();
+
+        }
+
+        private void StudentAchievements_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

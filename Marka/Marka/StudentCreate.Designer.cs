@@ -55,7 +55,7 @@
             emailBtn.SizeMode = PictureBoxSizeMode.AutoSize;
             emailBtn.TabIndex = 0;
             emailBtn.TabStop = false;
-            emailBtn.Click += emailBtn_Click;
+            this.emailBtn.Click += new System.EventHandler(this.emailBtn_Click_1);
             // 
             // pictureBox2
             // 
@@ -111,7 +111,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox5.TabIndex = 5;
             pictureBox5.TabStop = false;
-            pictureBox5.Click += pictureBox5_Click;
+
             // 
             // backBtn
             // 

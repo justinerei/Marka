@@ -183,5 +183,36 @@ namespace Marka
 
             this.Hide();
         }
+
+        private void dot1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            StudentProfile profile = new StudentProfile();
+            profile.Show();
+            this.Hide();
+        }
+
+        private void subjectsIcon_Click(object sender, EventArgs e)
+        {
+            StudentSubjects subjects = new StudentSubjects();
+            subjects.Show();
+            this.Hide();
+        }
+
+        private void homeIcon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            StudentNotif notif = new StudentNotif();
+            notif.Show();
+            this.Hide();
+        }
     }
 }

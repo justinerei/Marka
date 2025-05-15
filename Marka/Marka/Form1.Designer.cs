@@ -209,6 +209,7 @@
             homeIcon.SizeMode = PictureBoxSizeMode.CenterImage;
             homeIcon.TabIndex = 15;
             homeIcon.TabStop = false;
+            homeIcon.Click += homeIcon_Click;
             // 
             // dot1
             // 
@@ -220,6 +221,7 @@
             dot1.SizeMode = PictureBoxSizeMode.CenterImage;
             dot1.TabIndex = 16;
             dot1.TabStop = false;
+            dot1.Click += dot1_Click;
             // 
             // verticalScrolling
             // 
@@ -333,6 +335,7 @@
             subjectsIcon.SizeMode = PictureBoxSizeMode.CenterImage;
             subjectsIcon.TabIndex = 19;
             subjectsIcon.TabStop = false;
+            subjectsIcon.Click += subjectsIcon_Click;
             // 
             // plusIcon
             // 
@@ -356,6 +359,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 21;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // pictureBox2
             // 
@@ -367,6 +371,7 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox2.TabIndex = 22;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click_1;
             // 
             // Home
             // 
